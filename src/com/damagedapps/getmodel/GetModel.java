@@ -19,8 +19,10 @@ public class GetModel extends Activity
         TextView modelNo = (TextView) findViewById(R.id.model_no);
         TextView productNo = (TextView) findViewById(R.id.product_no);
         TextView brandNo = (TextView) findViewById(R.id.brand_no);
+        TextView deviceNo = (TextView) findViewById(R.id.device_no);
         modelNo.setText(Build.MODEL);
         productNo.setText(Build.PRODUCT);
         brandNo.setText(Build.BRAND);
+        deviceNo.setText(Build.DEVICE);
     }
 }
